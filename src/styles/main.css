@@ -1,0 +1,166 @@
+html{
+    font-size: 16px;
+}
+
+body {
+    font-family: 'proxima-nova', sans-serif;
+    /*line-height: 0;*/
+}
+
+.gradient {
+    background-image: linear-gradient(45deg, #29116d, #5c4789);
+}
+
+.inter-exp {
+    justify-content: center;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.realize-your-vision {
+    justify-content: center;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.logo-box {
+    margin-top: 95px;
+}
+
+.logo {
+    justify-content: center;
+    display: flex;
+}
+
+.drive-text-box {
+    margin-top: 50px;
+}
+
+.realize-text-box {
+    margin-top: 35px;
+    margin-bottom: 95px;
+}
+
+.trusted-text {
+    justify-content: center;
+    display: flex;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.trusted {
+    margin-top: 100px;
+}
+
+.brands-logos-box {
+    margin-bottom: 100px;
+}
+
+.offer-box {
+    background-image:
+            linear-gradient(
+                    45deg,
+                    rgba(41,17,109, 0.9),
+                    rgba(92,71,137, 0.8)
+            ),
+            url("../../public/assets/image-we-work@2x.jpg");
+    background-size: cover;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+.ex-offer-box {
+    margin-top: 250px;
+}
+
+.ex-offer-text {
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.member-box {
+    margin-top: 35px;
+}
+
+.members-text {
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.email-block input{
+    width: 287px;
+    height: 47px;
+    background-color: #ffffff;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: #b7b7b7;
+}
+
+.email-block .btn-submit {
+    border-radius: 0px 4px 4px 0px;
+    background-color: #296cfc;
+    width: 207px;
+    height: 47px;
+    border: 1px solid #296cfc;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.email-block {
+    justify-content: center;
+    display: flex;
+    margin-top: 35px;
+    /*margin-bottom: 250px;*******************************/
+
+}
+
+.borders .btn-submit, .borders input {
+    border-radius: 4px 4px 4px 4px;
+}
+
+.borders .btn-submit {
+    margin-top: 30px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+h1 {
+    color: #010101;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+p {
+    color: #010101;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-text {
+    color:#ffffff;
+    font-size:14px;
+    font-weight: 300;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.footer {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+}
