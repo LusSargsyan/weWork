@@ -4,7 +4,6 @@ html{
 
 body {
     font-family: 'proxima-nova', sans-serif;
-    /*line-height: 0;*/
 }
 
 .gradient {
@@ -55,8 +54,12 @@ body {
     font-weight: 400;
 }
 
-.trusted {
+.margin-top-100 {
     margin-top: 100px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
 }
 
 .brands-logos-box {
@@ -126,6 +129,7 @@ body {
     justify-content: center;
     display: flex;
     margin-top: 35px;
+    margin-bottom: 250px;
     /*margin-bottom: 250px;*******************************/
 
 }
@@ -163,4 +167,34 @@ p {
 
 .footer {
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+}
+
+.features-logo {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.align-end {
+    text-align: end;
+}
+
+.align-start {
+    text-align: start;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 2s linear;
+}
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
 }
